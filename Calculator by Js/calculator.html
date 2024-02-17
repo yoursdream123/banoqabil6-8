@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - JavaScript</title>
+    <style>
+        .btn{
+            padding: 0px 0px 0px 0px;
+            text-align: center;
+            height: 40px;
+            width: 100px;
+            display: inline-block;
+            /* margin-left: 10px; */
+            border-radius: 5px;
+            border-color: 1px blue;
+            background-color: white;
+            color: blue;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: blue;
+            color: white;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn" onclick="add()">Addition</button>
+    <button class="btn" onclick="sub()">Subtraction</button>
+    <button class="btn" onclick="multi()">Multiplication</button>
+    <button class="btn" onclick="divi()">Division</button>
+    <script src="calculator.js"></script>
+</body>
+</html>
