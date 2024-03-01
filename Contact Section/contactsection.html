@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- ------------------bootstrap CSS------------------------------- -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- -----------------------bootstrap Script------------------------------- -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- --------------------------------Bootstrap Ends------------------------------- -->
+    <style>
+         .field{
+            margin-top: 10px;
+            display: flex;
+        }
+        .field2{
+            margin-top: 10px;
+            display: flex;
+        }
+        .area{
+            margin-top: 10px;
+        }
+        .forinline{
+            display: inline;
+        }
+        .forline{
+            display: inline;
+            margin-left: 20px;
+        }
+        .box{
+            height: 30px;
+            padding: 8px;
+            font-size: 18px;
+        }
+        .bux{
+            padding: 8px;
+            font-size: 18px;
+        }
+        .call{
+            background-color: rgb(235, 68, 68);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .mail{
+            background-color: rgb(73, 73, 216);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .address{
+            background-color: rgb(241, 55, 55);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .bton{
+            padding: 15px;
+            width: 170px;
+            font-size: 18px;
+            background-color: blue;
+            color: white;
+            border-color: blue;
+            font-weight: bold;
+        }
+        .morgin{
+            margin-left: 70px;
+        }
+        form textarea{
+            width: 95%;
+            outline: none;
+            padding: 15px;
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .call{
+            background-color: rgb(235, 68, 68);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .mail{
+            background-color: rgb(73, 73, 216);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .address{
+            background-color: rgb(241, 55, 55);
+            padding: 15px;
+            width: 110%;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        .baari{
+            display: flex;
+        }
+        .backround{
+    position: relative;
+}
+.backround img{
+    max-width: 100%;
+    height: 300px;
+}
+.backround-text{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    margin-left: 40px;
+    /* margin-top: 70px; */
+}
+/* .backround-text.h1{
+    font-weight: 800;
+    font-size: 65px;
+} */
+.backround-text a{
+    font-size: 20px;
+    /* margin-left: 40px; */
+    text-decoration: none;
+}
+.hee{
+    font-weight: 800;
+    font-size: 65px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 65px;
+    font-size: 50px;
+}
+.bon{
+    display: flex;
+}
+.iski{
+    margin-left: 10px;
+    margin-top: -4px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.culor{
+    color: rgb(238, 54, 54);
+    margin-left: 6px;
+}
+.colur{
+    color: #fff;
+    margin-left: 40px;
+}
+/* --------------------logo image------------------------ */
+.imagee{
+    width: 250px;
+    height: 60px;
+    margin-left: 55px;
+}
+/* ------------------------log ends--------------------------- */
+
+/* -----------------------home, about,contact nav section------------ */
+.navbar-nav{
+    margin-left: 520px;
+}
+.nav-link.active{
+    margin-left: 40px;
+    font-size: 20px;
+}
+/* -----------------------home, about,contact nav section ends------------ */
+        @media only screen and (max-width: 600px){
+            form textarea{
+                width: 92%;
+            }
+            .morgin{
+                margin-left: 22px;
+            }
+            .field{
+                display: inline;
+            }
+            .field2{
+                display: inline;
+            }
+            .box{
+                width: 425px;
+                height: 43px;
+                margin-bottom: 5px;
+            }
+            .baari{
+                display: inline;
+            }
+            .call{
+                margin-left: 5px;
+                width: 425px;
+            }
+            .mail{
+                margin-left: 5px;
+                width: 425px;
+            }
+            .address{
+                margin-left: 5px;
+                width: 425px;
+            }
+            .backround-text{
+                margin-left: -18px;
+            }
+            .imagee{
+                margin-left: 5px;
+            }
+            .iski{
+                font-size: 25px;
+                font-weight: 400;
+            }
+            img{
+                width: 118%;
+            }
+            .logside{
+                margin-left: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- -------------------------------------Navbar---------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="imagee" src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -------------------------------------Navbar Ends--------------------------------------- -->
+    <div class="backround">
+        <img src="images/blur6.jpg" height="300px" width="100%">
+        <div class="backround-text">
+          <h1 class="hee">Contact Us</h1>
+          <div class="bon">
+            <a class="colur" href="#">Home</a>
+            <p class="iski">|</p>
+            <a class="culor" href="#">Contact Us</a>
+          </div>
+        </div>
+    </div>
+    <div class="baari">
+        <div class="morgin">
+            <h1>For Feedback & Complains</h1>
+            <p>If you have any query related service or any company staff you can contact.</p>
+            <form>
+                <div class="field">
+                    <div class="forinline">
+                        <p>Name</p>
+                        <input class="box" type="text" name="Name" size="28" maxlength="30" required>
+                    </div>
+                    <div class="forline">
+                        <p>Email Address</p>
+                        <input class="box" type="email" name="Email" size="28" maxlength="30" required>
+                    </div>
+                </div>
+                <div class="field2">
+                    <div class="forinline">
+                        <p>Phone</p>
+                        <input class="box" type="text" name="Name" size="28" maxlength="30" required>
+                    </div>
+                    <div class="forline">
+                        <p>Subject</p>
+                        <input class="box" type="text" name="Name" size="28" maxlength="30" required>
+                    </div>
+                </div>
+                <p>Message</p>
+                <textarea name="Message" rows="6"></textarea>
+                <div class="submit">
+                    <button type="submit" class="bton" style="cursor: pointer;">Send Message</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="logside">
+            <div class="call">
+                <h3 class="ion"><ion-icon class="ioni" name="call-outline"></ion-icon>Phone:</h3>Contact VIA Email
+            </div>
+            <div class="mail">
+                <h3 class="ion"><ion-icon class="ioni" name="mail-outline"></ion-icon>E-Mail:</h3>info@maftechsolution.com
+            </div>
+            <div class="address">
+                <h3 class="ion"><ion-icon class="ioni" name="location-outline"></ion-icon>Address:</h3>Street # 4 Gulshan-e-Jamal A-23 Block<br>Karachi, Pakistan
+            </div>
+        </div>
+    </div>
+</body>
+</html>
